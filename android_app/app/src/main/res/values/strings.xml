@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Canopy Analyzer</string>
+    <string name="nav_home">Home</string>
+    <string name="nav_visualize">Visualize</string>
+    <string name="nav_results">Results</string>
+    <string name="nav_saved">Saved</string>
+    <string name="nav_settings">Settings</string>
+    <string name="nav_batch">Batch</string>
+    <string name="batch_empty_hint">No batch results yet.\n\nGo to the Analyze tab, tap\n&#8220;Batch Analyze&#8221; and select multiple images.</string>
+    <string name="btn_camera">Capture Image</string>
+    <string name="btn_gallery">Upload Image</string>
+    <string name="btn_analyze">Run Analysis</string>
+    <string name="label_le">Le – Effective LAI</string>
+    <string name="label_l">L – True LAI</string>
+    <string name="label_lx">LX – Clumping Index</string>
+    <string name="label_difn">DIFN (%)</string>
+    <string name="label_mta">MTA.ell (°)</string>
+    <string name="label_x">x – Ellipsoidal</string>
+    <string name="label_lxg1">LXG1</string>
+    <string name="label_lxg2">LXG2</string>
+    <string name="desc_le">Effective LAI from average gap fraction per ring (Warren-Wilson)</string>
+    <string name="desc_l">True LAI from Miller\'s theorem applied per azimuth segment</string>
+    <string name="desc_lx">Lang &amp; Xiang clumping index (Le/L)</string>
+    <string name="desc_difn">Diffuse non-interceptance — canopy openness index</string>
+    <string name="desc_mta">Mean tilt angle from ellipsoidal leaf angle distribution</string>
+    <string name="desc_x">Ellipsoidal LAD parameter (x=1 spherical, x&lt;1 planophile, x&gt;1 erectophile)</string>
+    <string name="error_no_image">No image loaded. Please capture or select an image first.</string>
+    <string name="error_analysis_failed">Analysis failed. Check your settings and try again.</string>
+    <string name="success_export">File saved successfully</string>
+</resources>

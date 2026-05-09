@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<paths>
+    <!-- App-private external storage: CSV/JSON exports (Documents/) and camera captures -->
+    <external-files-path name="app_external_files" path="." />
+    <!-- Internal cache: camera captures stored before analysis -->
+    <cache-path name="cache_files" path="." />
+    <!-- External cache: fallback camera captures -->
+    <external-cache-path name="external_cache" path="." />
+</paths>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="card_margin">12dp</dimen>
+    <dimen name="content_padding">16dp</dimen>
+    <dimen name="button_height">56dp</dimen>
+    <dimen name="analyze_button_height">64dp</dimen>
+    <dimen name="image_preview_height">260dp</dimen>
+    <dimen name="bottom_nav_height">80dp</dimen>
+    <dimen name="metric_text_large">24sp</dimen>
+    <dimen name="metric_text_label">12sp</dimen>
+</resources>

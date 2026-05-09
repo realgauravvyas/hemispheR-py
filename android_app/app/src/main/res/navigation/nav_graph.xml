@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.canopyanalyzer.ui.HomeFragment"
+        android:label="@string/nav_home"
+        tools:layout="@layout/fragment_home">
+        <action
+            android:id="@+id/action_homeFragment_to_settingsFragment"
+            app:destination="@id/settingsFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_visualizationFragment"
+            app:destination="@id/visualizationFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_batchResultsFragment"
+            app:destination="@id/batchResultsFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/visualizationFragment"
+        android:name="com.canopyanalyzer.ui.VisualizationFragment"
+        android:label="@string/nav_visualize"
+        tools:layout="@layout/fragment_visualization">
+        <action
+            android:id="@+id/action_visualizationFragment_to_resultsFragment"
+            app:destination="@id/resultsFragment" />
+        <action
+            android:id="@+id/action_visualizationFragment_to_batchResultsFragment"
+            app:destination="@id/batchResultsFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/resultsFragment"
+        android:name="com.canopyanalyzer.ui.ResultsFragment"
+        android:label="@string/nav_results"
+        tools:layout="@layout/fragment_results" />
+
+    <fragment
+        android:id="@+id/savedResultsFragment"
+        android:name="com.canopyanalyzer.ui.SavedResultsFragment"
+        android:label="@string/nav_saved"
+        tools:layout="@layout/fragment_saved_results" />
+
+    <fragment
+        android:id="@+id/settingsFragment"
+        android:name="com.canopyanalyzer.ui.SettingsFragment"
+        android:label="@string/nav_settings"
+        tools:layout="@layout/fragment_settings" />
+
+    <fragment
+        android:id="@+id/batchResultsFragment"
+        android:name="com.canopyanalyzer.ui.BatchResultsFragment"
+        android:label="@string/nav_batch"
+        tools:layout="@layout/fragment_batch_results">
+        <action
+            android:id="@+id/action_batchResultsFragment_to_visualizationFragment"
+            app:destination="@id/visualizationFragment" />
+    </fragment>
+
+</navigation>

@@ -1,0 +1,2 @@
+-keep class com.canopyanalyzer.model.** { *; }
+-keepclassmembers class com.canopyanalyzer.model.** { *; }

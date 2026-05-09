@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Placeholder layout – metric values are bound via IDs in fragment_results.xml -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="4dp">
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:text="Label" android:textAppearance="?attr/textAppearanceLabelSmall"/>
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:text="—" android:textAppearance="?attr/textAppearanceTitleMedium"/>
+</LinearLayout>

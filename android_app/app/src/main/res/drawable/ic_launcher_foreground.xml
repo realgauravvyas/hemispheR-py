@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Simple tree silhouette icon for Canopy Analyzer -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M54,18 L38,42 H46 L34,62 H44 L30,82 H78 L64,62 H74 L62,42 H70 Z" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M50,82 H58 V95 H50 Z" />
+</vector>
