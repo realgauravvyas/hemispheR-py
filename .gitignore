@@ -216,3 +216,22 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+*.log
+
+# Android
+.gradle/
+local.properties
+android_app/.idea/
+android_app/**/.idea/
+android_app/**/build/
+android_app/**/*.iml
+android_app/**/.DS_Store
+*.apk
+*.aab
+*.keystore
+
+# Project outputs (generated results)
+outputs/
+
+# Large sample images (add specific ones you want to keep)
+# sample_images/
