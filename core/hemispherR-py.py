@@ -4,8 +4,8 @@ from PIL import Image
 import os
 
 CONFIG = {
-    "filename":r"D:\Pendrive USB 27th Feb\Internship Term 7\TestImgLAI\P072b.jpg", #change the image path
-    "circ_mask": {"xc": 1818, "yc": 1466, "rc": 1424},#change the mask parameters or set None for automasking
+    "filename":r"C:\Users\Gaurav\Documents\GitHub\hemispheR-py\sample_images\P072.jpg", #change the image path
+    "circ_mask": {"xc": 1496, "yc": 2408, "rc": 1414},#change the mask parameters or set None for automasking
     "channel": 3,
     "circular": True,
     "gamma": 0.85,
