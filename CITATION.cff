@@ -1,0 +1,26 @@
+cff-version: 1.2.0
+message: "If you use hemispheR-py, please cite it and the original hemispheR package."
+title: "hemispheR-py: dependency-light hemispherical canopy photo analysis in Python"
+type: software
+authors:
+  - family-names: Vyas
+    given-names: Gaurav
+repository-code: "https://github.com/realgauravvyas/hemispheR-py"
+url: "https://realgauravvyas.github.io/featherfield/"
+license: MIT
+keywords: [hemispherical photography, leaf area index, canopy, forestry, agriculture, ecology, fisheye]
+abstract: >-
+  A dependency-light Python port of the hemispherical (fisheye) canopy photo workflow:
+  effective and corrected leaf area index, clumping index, gap fraction and canopy openness,
+  using only numpy, pandas and Pillow.
+references:
+  - type: article
+    authors:
+      - family-names: Chianucci
+        given-names: Francesco
+      - family-names: Macek
+        given-names: Martin
+    title: "hemispheR: an R package for fisheye canopy image analysis"
+    journal: "Agricultural and Forest Meteorology"
+    year: 2023
+    doi: "10.1016/j.agrformet.2023.109470"

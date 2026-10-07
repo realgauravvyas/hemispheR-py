@@ -3,8 +3,11 @@ import pandas as pd
 from PIL import Image
 import os
 
+# Default: the bundled sample photo, found relative to this file so the script runs anywhere.
+SAMPLE_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "sample_images")
+
 CONFIG = {
-    "filename":r"C:\Users\Gaurav\Documents\GitHub\hemispheR-py\sample_images\P072.jpg", #change the image path
+    "filename": os.path.join(SAMPLE_DIR, "P072.jpg"), #change the image path
     "circ_mask": {"xc": 1496, "yc": 2408, "rc": 1414},#change the mask parameters or set None for automasking
     "channel": 3,
     "circular": True,
