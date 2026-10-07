@@ -8,9 +8,9 @@
 ![license](https://img.shields.io/badge/license-MIT-7fdc9a)
 ![python](https://img.shields.io/badge/python-3.10%2B-3776ab?logo=python&logoColor=white)
 ![deps](https://img.shields.io/badge/dependencies-numpy%20%C2%B7%20pandas%20%C2%B7%20Pillow-ffd27a)
-[![Featherfield](https://img.shields.io/badge/part%20of-Featherfield-0b110e?labelColor=0b110e&color=7fdc9a)](https://realgauravvyas.github.io/featherfield/)
+[![Featherfield](https://img.shields.io/badge/part%20of-Featherfield-0b110e?labelColor=0b110e&color=7fdc9a)](https://featherfield.org/)
 
-[**Website & live demo**](https://realgauravvyas.github.io/featherfield/) ·
+[**Website & live demo**](https://featherfield.org/) ·
 [**Android app**](https://fac.iitg.ac.in/dmandal/Agro-geoinformaticsLab/tools.html) ·
 [**Researcher page**](https://fac.iitg.ac.in/dmandal/Agro-geoinformaticsLab/people.html) ·
 [**Cite**](#citation)
@@ -151,7 +151,7 @@ tests/                 pytest suite
 
 ## Links
 
-- 🌐 **Featherfield** — the open-source field-tools project this belongs to: <https://realgauravvyas.github.io/featherfield/> (with an in-browser demo that reproduces this pipeline)
+- 🌐 **Featherfield** — the open-source field-tools project this belongs to: <https://featherfield.org/> (with an in-browser demo that reproduces this pipeline)
 - 📱 **Android app (APK)** and lab tools: <https://fac.iitg.ac.in/dmandal/Agro-geoinformaticsLab/tools.html>
 - 👤 **Researcher page**, Agro-geoinformatics Lab, IIT Guwahati: <https://fac.iitg.ac.in/dmandal/Agro-geoinformaticsLab/people.html>
 - 📦 **hemispheR** (R, MIT) on CRAN: <https://cran.r-project.org/package=hemispheR>
